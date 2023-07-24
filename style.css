@@ -1,0 +1,71 @@
+main {
+  margin: auto;
+  width: 600px;
+}
+img {
+  background-color: #a351c9;
+}
+.header {
+  font-family: Abril Fatface;
+  color: #222222;
+  display: flex;
+  flex-direction: row;
+}
+.photo {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.content {
+  flex-grow: 4;
+  width: 420px;
+
+}
+blockquote {
+  font-family: Abril Fatface;
+  background-color: #474747;
+  font-size: 40px;
+  color: white;
+  margin: 20px;
+  height: auto;
+  flex-grow: 2;
+  width: 180px;
+}
+p {
+  font-family:Josefin Sans;
+  color: #222222;
+}
+ul {
+  font-family:Josefin Sans;
+  color: #222222;
+}
+h3 {
+  font-family:Merriweather;
+  color: #222222;
+  font-size: 15px;
+}
+h4 {
+  font-family:Merriweather;
+  color: #222222;
+  font-size: 12px;
+}
+h5 {
+  font-family:Merriweather;
+  color: #222222;
+  font-size: 10px;
+}
+.achievements{
+  display: flex;
+  flex-direction: row;
+  
+}
+.experience{
+  display: flex;
+  flex-direction: row;
+}
+.training{
+  display: flex;
+  flex-direction: row;
+}
